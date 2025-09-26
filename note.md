@@ -84,6 +84,58 @@ colonne de B.
 | **Dimension** | Si A est m×n et B est n×p, alors AB est m×p |
 
 ## Calcul d’un déterminant
+- Définitions
+- Un déterminant est une fonction qui associe un nombre réel à une matrice carrée A d’ordre n. On le note det A ou |A| .
+- L’ordre d’un déterminant d’une matrice carrée est identique à l’ordre de la matrice
+- Si det A = |A| ≠ 0  , alors on dit que la matrice A est régulière.
+- Si det A = |A| = 0  , alors on dit que la matrice A est singuliere.
+
+- Déterminant d’ordre 1 :
+  - si A=[a<sub>11</sub>]a<sub>1x1</sub> alors detA = a<sub>11</sub>
+- Déterminant d’ordre 2 :
+  - Soit A = [ $^{ab}_{cd}$ ] = ad-bc
+ 
+- Déterminant d’ordre 3 ou plus :
+  - cofacteur (-1)<sup>i+j</sup> M<sub>ij</sub>
+  - Mineur  A = [a<sub>ij</sub>]<sub>nxn</sub> une matrice carre. Le determinant de la matrice en suprimant la i<sup>e</sup> ligne et la j<sup>e</sup> de A est appele mineur a a<sub>ij</sub>
+ 
+## Règle de Sarrus
+- Cette méthode implique la somme de 3 termes suivie de la différence de 3 autres. Observez attentivement
+les calculs présentés dans les exemples suivants.
+
+
+## Propriétés des déterminants
+
+- On peut développer un déterminant selon la ligne ou la colonne que l’on veut. Pour simplifier les calculs,
+on choisit celle qui contient le plus de 0.
+
+- L’inversion de deux lignes (ou de deux colonnes) dans une matrice carrée amène un changement de signe
+dans le déterminant.
+
+- Le déterminant d’une matrice triangulaire est égal au produit des éléments de sa diagonale principale.
+
+- Le déterminant de la transposée d’une matrice carrée est égal au déterminant de la matrice initiale.
+
+- Le déterminant d’une matrice carrée A qui contient une ligne ou une colonne contenant seulement des 0
+vaut 0.
+
+- Si B est une matrice qu’on obtient en multipliant une ligne ou une colonne d’une matrice carrée A par une
+constante c detB = cdetA
+
+- Si on multiplie une matrice carrée par une constante, le déterminant sera multiplié par cette constante
+« exposant le nombre de lignes » det(cA) = c<sup>n</sup>det(A)
+
+- Le déterminant d’une matrice A qui contient deux lignes ou deux colonnes identiques vaut 0.
+
+- Le déterminant d’une matrice qui contient deux lignes ou deux colonnes dont l’une est un multiple de
+l’autre vaut 0.
+
+- det(AB) = det(A)det(B) det (a+-b)≠ detA+-detB
+  
+- Si on veut faire apparaître des zéros dans une colonne pour simplifier le calcul d’un déterminant d’une matrice de format 2x2 ou plus 
+
+
+
 
 
 

@@ -46,7 +46,49 @@ Notation : a<sub>ij
 ## Chapitre 2 : Opérations sur les matrices
 
 - Addition de matrices  pour pouvoir additionner ou soustraire deux matrices, celles-ci doivent au départ avoir le même format
-- 
+- Multiplication d’une matrice par un scalaire KA=[ka<sub>ji</sub>]<sub>mxn</sub>
+- Transposition d’une matrice A=[a<sub>ij</sub>]<sub>mxn</sub> A<sup>t</sup>=[a<sub>ij</sub>]<sub>nxm</sub>
+
+### Propriétés matricielles 
+- de l’addition, de la multiplication par un scalaire et de la transposition.
+
+| Propriétés  | Propriétés  |
+|:----------------------:|:----------------------------:|
+| A + B = B + A | (A + B) + C = A + (B + C) |
+| A + 0<sub>m×n</sub> = A | A + (-A) = 0<sub>m×n</sub> |
+| r(A + B) = rA + rB | (r + s)A = rA + sA |
+| (rs)A = r(sA) | 1A = A |
+| 0A = A + 0<sub>m×n</sub> | r0<sub>m×n</sub> = 0<sub>m×n</sub> |
+| (A<sup>T</sup>)<sup>T</sup> = A | (kA)<sup>T</sup> = kA<sup>T</sup> |
+| (A + B)<sup>T</sup> = A<sup>T</sup> + B<sup>T</sup> | (A - B)<sup>T</sup> = A<sup>T</sup> - B<sup>T</sup> |
+
+## Multiplication de matrices
+
+-Définition du produit matriciel
+  - Soit les matrices A = [a<sub>ij</sub>]A<sub>mxn</sub> Le produit matriciel de A par B, noté ___AB___, est la matrice C = [c<sub>ij</sub>]<sub>mxp</sub> de dimension
+mxp où C = [c<sub>ij</sub>]<sub>mxp</sub> est la somme du produit des éléments de la i<sup>e</sup> ligne  de A multipliés respectivement par les éléments de la j<sup>e</sup> ligne 
+colonne de B.
+- C<sub>2x2</sub> = A<sub>2x3</sub>B<sub>3x2</sub>
+- Une matrice carrée A d’ordre n est idempotente <=> A<sup>2</sup> = A
+- Une matrice carrée A d’ordre n est nilpotente <=> existe un entier positif k tel que A<sup>k</sup> = 0<sub>nxn</sub>
+
+| Propriété | Expression |
+|:----------|:-----------|
+| **Associativité** | (AB)C = A(BC) |
+| **Distributivité à gauche** | A(B + C) = AB + AC |
+| **Distributivité à droite** | (A + B)C = AC + BC |
+| **Non-commutativité** | AB ≠ BA (en général) |
+| **Élément neutre** | AI = IA = A |
+| **Compatibilité avec les scalaires** | (kA)B = k(AB) = A(kB) |
+| **Transposée du produit** | (AB)<sup>T</sup> = B<sup>T</sup>A<sup>T</sup> |
+| **Dimension** | Si A est m×n et B est n×p, alors AB est m×p |
+
+## Calcul d’un déterminant
+
+
+
+
+
 
 
 
